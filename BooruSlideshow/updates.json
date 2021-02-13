@@ -1,0 +1,12 @@
+{
+  "addons": {
+    "{036df4d9-dba4-4538-93ad-9b7e98580887}": {
+      "updates": [
+        {
+          "version": "9.1.1",
+          "update_link": "https://cdn.jyles.club/booruslideshow/BorruSlideshow-9.1.1.xpi"
+        }
+      ]
+    }
+  }
+}
