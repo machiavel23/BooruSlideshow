@@ -1,8 +1,8 @@
 {
 	"manifest_version": 2,
 
-	"name": "Booru Slideshow",
-	"short_name": "Booru SS",
+	"name": "Booru Slideshow Remake",
+	"short_name": "Booru SSR",
 	"description": "View a slideshow from a Booru site based on your search.",
 	"version": "9.1.1",
 
@@ -14,7 +14,7 @@
 	
 	"browser_specific_settings": {
 		"gecko": {
-			"update_url": "https://raw.githubusercontent.com/jylescoad-ward/BooruSlideshow/master/BooruSlideshow/updates.json"
+			"update_url": "https://raw.githubusercontent.com/machiavel23/BooruSlideshow/master/BooruSlideshow/updates.json"
 		}
 	},
 	

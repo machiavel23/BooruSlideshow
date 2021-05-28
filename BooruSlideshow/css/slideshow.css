@@ -15,10 +15,11 @@
 	
 	body {
 		font-family: "Open Sans", "Lucida Grande", Tahoma, sans-serif;
-		font-size: 100%;
+		font-size: 1.5vw;
 		color:#ffffff;
 		margin: 0px;
 		background:#101112;
+		padding: 2em;
 	}
 	
 	h4 {
@@ -157,7 +158,6 @@
 		text-align:center;
 		overflow: hidden;
 		clear: both;
-		/*padding:0px 50px 10px 50px;*/
 	}
 	
 	#loading-animation {
@@ -168,16 +168,6 @@
 		bottom: 0;
 		left: 0;
 		right: 0;
-	}
-	
-	#search {
-		text-align:center;
-		background: #181a1f;
-		margin: auto;
-			width: 80%;
-		padding: 10px;
-		border-radius: 5px;
-		clear: left;
 	}
 		
 	#search-button {
@@ -191,41 +181,35 @@
 		-moz-border-radius: 5;
 		border-radius: 5px;
 		color: #ffffff;
-		font-size: 100%;
-		padding: 10px 20px 10px 20px;
+		font-size: 1.5vw;
 		text-decoration: none;
 		border: 0px;
-		width: 20%;
-		margin-top: 10px;
+		width: 40%;
+		height: 50px;
+		margin-bottom: 10px;
 	}
 		
 	#search-text {
-		padding: 5px 5px 5px 5px;
+
 		margin: 10px;
 		border-radius: 5px;
 		text-align:center;
 		text-decoration: none;
-			width: 19%;
-		height: 20%;
-			border: 0px;
+		width: 40%;
+		height: 50px;
+		border: 0px;
 		background:#292d36;
 		color: #ffffff;
+		font-size: 1.5vw;
 	}
 	
 	#sites-to-search,
 	.options,
 	#tips {
-		/*height: 310px;*/
-		font-size: 100%;
+		font-size: 1.5vw;
 		text-align:center;
-		background: #181a1f;
-			width: 25%;
-		padding: 10px;
-		border-radius: 5px;
 		color:#fff;
-		display: inline-block;
-		vertical-align: top;
-		overflow:auto;
+
 	}
 	
 	#sites-to-search span
@@ -234,11 +218,7 @@
 		font-size: 0.8em;
 	}
 	
-	#sites-to-search,
-	.options
-	{
-		margin-right:2%;
-	}
+
 		
 	.options input[type=number] {
 		height: 10%;
@@ -249,19 +229,11 @@
 		border: 0px;
 		color:#fff;
 		margin-top:10px;
-		display: inline-block;
+
 	}
 	
 	.options input:disabled {
 		color: #777;
-	}
-		
-	#module-container {
-			width: 98%;
-		padding: 10px;
-		margin: 10px auto;
-		 position: relative;
-		 text-align:center;
 	}
 		
 	#current-image,
@@ -285,7 +257,7 @@
 		height: 100px;
 		width: 100px;
 		padding: 3px;
-			text-align: center;
+		text-align: center;
 		float:left;
 	}
 	
@@ -310,7 +282,7 @@
 	
 	.note {
 		color: #888;
-		font-size: 0.8em;
+		font-size: 1.5vw;
 	}
 	
 	textarea {
@@ -369,7 +341,7 @@
 		-moz-border-radius: 5;
 		border-radius: 5px;
 		color: #ffffff;
-		font-size: 100%;
+		font-size: 1.5vw;
 		padding: 10px 20px 10px 20px;
 		text-decoration: none;
 		border: 0px;
@@ -393,3 +365,67 @@
 		font-style: italic;
 		content: " NEW!";
 	}
+	
+.wrapper {
+  display: flex;  
+  flex-flow: row wrap;
+  text-align: center; 
+}
+
+.wrapper > * {
+  padding: 10px;
+  flex: 1 100%;
+}
+
+.header {
+  background: #181a1f;
+  border-radius: 30px;
+}
+
+.footer {
+  background: #181a1f;
+  border-radius: 30px;
+}
+
+.main {
+  text-align: center;
+  background: #181a1f;
+  margin: 10px;
+  margin-bottom: 7px;
+  border-radius: 30px;
+}
+
+.aside-1 {
+  background: #181a1f;
+  border-radius: 30px;
+  margin-top: 10px;
+  margin-bottom: 7px;
+}
+
+.aside-2 {
+  background: #181a1f;
+  margin-top: 10px;
+  margin-bottom: 7px;
+  border-radius: 30px;
+}
+
+@media all and (min-width: 600px) {
+  .aside { flex: 1 0 0; }
+}
+
+@media all and (min-width: 800px) {
+  .main    { flex: 1 0px; }
+  .aside-1 { order: 1; } 
+  .main    { order: 2; }
+  .aside-2 { order: 3; }
+  .footer  { order: 4; }
+}
+
+table {
+  text-align: center;
+  width: 100%;
+}
+
+table td, table th {
+  padding: 10px 0px;
+}
