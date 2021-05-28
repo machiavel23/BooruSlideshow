@@ -4,7 +4,7 @@
 	"name": "Booru Slideshow Remake",
 	"short_name": "Booru SSR",
 	"description": "View a slideshow from a Booru site based on your search.",
-	"version": "9.1.1",
+	"version": "9.1.2",
 
 	"browser_action":
 	{

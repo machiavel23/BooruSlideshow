@@ -19,7 +19,6 @@
 		color:#ffffff;
 		margin: 0px;
 		background:#101112;
-		padding: 2em;
 	}
 	
 	h4 {
@@ -282,7 +281,7 @@
 	
 	.note {
 		color: #888;
-		font-size: 1.5vw;
+		font-size: 1.2vw;
 	}
 	
 	textarea {
