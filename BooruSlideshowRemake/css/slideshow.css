@@ -15,7 +15,7 @@
 	
 	body {
 		font-family: "Open Sans", "Lucida Grande", Tahoma, sans-serif;
-		font-size: 1.5vw;
+		font-size: 1.5hw;
 		color:#ffffff;
 		margin: 0px;
 		background:#101112;
@@ -180,7 +180,7 @@
 		-moz-border-radius: 5;
 		border-radius: 5px;
 		color: #ffffff;
-		font-size: 1.5vw;
+		font-size: 1.5hw;
 		text-decoration: none;
 		border: 0px;
 		width: 40%;
@@ -199,13 +199,13 @@
 		border: 0px;
 		background:#292d36;
 		color: #ffffff;
-		font-size: 1.5vw;
+		font-size: 1.5hw;
 	}
 	
 	#sites-to-search,
 	.options,
 	#tips {
-		font-size: 1.5vw;
+		font-size: 1.5hw;
 		text-align:center;
 		color:#fff;
 
@@ -340,7 +340,7 @@
 		-moz-border-radius: 5;
 		border-radius: 5px;
 		color: #ffffff;
-		font-size: 1.5vw;
+		font-size: 1.5hw;
 		padding: 10px 20px 10px 20px;
 		text-decoration: none;
 		border: 0px;
